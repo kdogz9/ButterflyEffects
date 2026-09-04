@@ -1,67 +1,31 @@
-BUTTERFLY EFFECTS PORTFOLIO
-===========================
+BUTTERFLY EFFECTS PORTFOLIO V2
 
-This version is separated into clear files so it is easier to edit.
+SITE FLOW
+---------
+Homepage -> Portfolio category -> Project card -> Full case study
 
-FILES
------
-
+Example:
 index.html
-- Controls the actual content of the website.
-- Text, headings, services, project cards and contact details live here.
-- Each major section is clearly labelled with comments.
+  -> portfolio/social-media.html
+      -> projects/greedy-piggies-social.html
 
-styles.css
-- Controls colours, spacing, fonts, cards, layout and mobile design.
-- The file is split into numbered sections matching the HTML.
+FOLDERS
+-------
+assets/      logo and future images
+portfolio/   category pages
+projects/    individual project pages
 
-script.js
-- Controls interactive behaviour.
-- At the moment it automatically updates the copyright year.
-- Future animations or features can be added here.
+EDITING
+-------
+Homepage categories: index.html
+Category project lists: portfolio/*.html
+Individual case studies: projects/*.html
+Colours/layout: styles.css
+JavaScript: script.js
 
-assets/butterfly-effects-logo.png
-- Your current Butterfly Effects logo.
-
-
-GITHUB PAGES
-------------
-
-Upload all four items to your GitHub repository while keeping this structure:
-
-index.html
-styles.css
-script.js
-assets/
-    butterfly-effects-logo.png
-
-Do not move the logo out of the assets folder unless you also update the image path in index.html.
-
-
-QUICK EDIT GUIDE
+ADDING A PROJECT
 ----------------
-
-Change homepage text:
-index.html → HERO / INTRO SECTION
-
-Change services:
-index.html → SERVICES SECTION
-
-Change portfolio projects:
-index.html → PORTFOLIO / PROJECTS SECTION
-
-Change about text:
-index.html → ABOUT SECTION
-
-Change email / social links:
-index.html → CONTACT SECTION
-
-Change colours:
-styles.css → BRAND COLOURS + GLOBAL SETTINGS
-
-Main brand colours are at the top of styles.css:
---pink
---purple
-
-Change mobile layout:
-styles.css → RESPONSIVE / MOBILE
+1. Copy an existing file in projects/ and rename it.
+2. Edit its project details.
+3. Open the relevant category file in portfolio/.
+4. Copy one project-card block and change its link to your new project file.
