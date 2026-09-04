@@ -1,12 +1,707 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Butterfly Effects</title><link rel="stylesheet" href="styles.css"></head><body>
-<nav class="site-nav"><div class="wrap nav-inner"><a class="brand-name" href="index.html">Butterfly Effects</a><div class="nav-links"><a href="#portfolio">Portfolio</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></nav>
-<header class="hero"><div class="wrap hero-grid"><div><div class="eyebrow">Creative Portfolio</div><h1>Create. <span>Connect.</span> Impact.</h1><p>Social media content, video editing, digital graphics and creative digital projects, all brought together under Butterfly Effects.</p><div class="hero-buttons"><a class="button button-primary" href="#portfolio">Explore Portfolio</a><a class="button button-outline" href="#contact">Work With Me</a></div></div><div class="logo-card"><img src="assets/butterfly-effects-logo.png" alt="Butterfly Effects logo"></div></div></header>
-<section id="portfolio" class="section-soft"><div class="wrap"><div class="section-label">Portfolio</div><h2 class="section-title">Explore my work by <span>category.</span></h2><p class="section-intro">Choose an area below to see all projects within that category. Each project then opens into its own detailed case-study page.</p><div class="category-grid">
-<a class="category-card" href="portfolio/social-media.html"><div class="category-visual"><div class="category-icon">📱</div></div><div class="card-copy"><h3>Social Media</h3><p>Campaigns, content planning, post design, captions and audience-focused work.</p><span class="card-link">View Social Media Projects →</span></div></a>
-<a class="category-card" href="portfolio/video-editing.html"><div class="category-visual"><div class="category-icon">🎬</div></div><div class="card-copy"><h3>Video Editing</h3><p>Website videos, promotional edits, voice-over, music and short-form content.</p><span class="card-link">View Video Projects →</span></div></a>
-<a class="category-card" href="portfolio/digital-design.html"><div class="category-visual"><div class="category-icon">✦</div></div><div class="card-copy"><h3>Digital Design</h3><p>Graphics, branded assets, store artwork and promotional materials.</p><span class="card-link">View Design Projects →</span></div></a>
-<a class="category-card" href="portfolio/web-digital.html"><div class="category-visual"><div class="category-icon">💻</div></div><div class="card-copy"><h3>Web & Digital</h3><p>Website content, portfolio builds, digital projects and related creative work.</p><span class="card-link">View Web Projects →</span></div></a>
-</div></div></section>
-<section id="about"><div class="wrap"><div class="section-label">About Butterfly Effects</div><h2 class="section-title">Small ideas can create a <span>bigger effect.</span></h2><p class="section-intro">Butterfly Effects is my space for bringing together social media, video, digital graphics and other creative projects. The idea behind the name is simple: small creative choices can make a noticeable difference to how content is seen, understood and remembered.</p></div></section>
-<section id="contact" class="section-soft"><div class="wrap"><div class="section-label">Contact</div><h2 class="section-title">Have a project <span>in mind?</span></h2><p class="section-intro">Replace this with your real contact details when you're ready to publish.</p><div class="hero-buttons"><a class="button button-primary" href="mailto:your@email.com">Email Me</a></div></div></section>
-<footer><div class="wrap footer-inner"><span>© <span id="current-year"></span> Butterfly Effects</span><span>Create • Connect • Impact</span></div></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================================
+         BASIC PAGE SETTINGS
+    ========================================== -->
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Butterfly Effects - Social media, video, design and digital creative portfolio."
+    >
+
+    <title>Butterfly Effects | Creative Portfolio</title>
+
+    <!-- =========================================
+         WEBSITE STYLESHEET
+    ========================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER / NAVIGATION
+    ========================================== -->
+
+    <header class="site-header">
+
+        <div class="nav-container">
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="logo-link"
+            >
+
+                <img
+                    src="images/logo.png"
+                    alt="Butterfly Effects logo"
+                    class="site-logo"
+                >
+
+            </a>
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation menu"
+            >
+
+                ☰
+
+            </button>
+
+
+            <!-- NAVIGATION LINKS -->
+
+            <nav
+                class="main-navigation"
+                id="mainNavigation"
+            >
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#portfolio">
+                    Portfolio
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+
+    <main>
+
+        <section
+            class="hero-section"
+            id="home"
+        >
+
+            <!-- DECORATIVE BACKGROUND SHAPES -->
+
+            <div class="hero-decoration hero-decoration-one">
+            </div>
+
+            <div class="hero-decoration hero-decoration-two">
+            </div>
+
+
+            <div class="hero-content">
+
+                <p class="eyebrow-text">
+                    CREATIVE DIGITAL PORTFOLIO
+                </p>
+
+
+                <h1>
+
+                    Small ideas can create
+
+                    <span class="highlight-text">
+                        big effects.
+                    </span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Creative content, video, design and digital
+                    experiences built to help brands, projects
+                    and ideas stand out.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#portfolio"
+                        class="button button-primary"
+                    >
+                        Explore My Work
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="button button-secondary"
+                    >
+                        Get In Touch
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- DECORATIVE SPARKLES -->
+
+            <span class="sparkle sparkle-one">
+                ✦
+            </span>
+
+            <span class="sparkle sparkle-two">
+                ✦
+            </span>
+
+            <span class="sparkle sparkle-three">
+                ✧
+            </span>
+
+        </section>
+
+
+
+        <!-- =========================================
+             INTRODUCTION STRIP
+        ========================================== -->
+
+        <section class="intro-strip">
+
+            <p>
+                SOCIAL MEDIA
+            </p>
+
+            <span>✦</span>
+
+            <p>
+                VIDEO
+            </p>
+
+            <span>✦</span>
+
+            <p>
+                DIGITAL DESIGN
+            </p>
+
+            <span>✦</span>
+
+            <p>
+                WEB
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================================
+             PORTFOLIO SECTION
+        ========================================== -->
+
+        <section
+            class="portfolio-section section-container"
+            id="portfolio"
+        >
+
+            <div class="section-heading">
+
+                <p class="eyebrow-text">
+                    MY WORK
+                </p>
+
+                <h2>
+                    Explore the portfolio
+                </h2>
+
+                <p>
+
+                    Choose an area below to explore projects,
+                    case studies and examples of my work.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- =========================================
+                 PORTFOLIO CATEGORY GRID
+            ========================================== -->
+
+            <div class="category-grid">
+
+
+                <!-- SOCIAL MEDIA -->
+
+                <a
+                    href="social-media.html"
+                    class="category-card"
+                >
+
+                    <div class="category-number">
+                        01
+                    </div>
+
+                    <div class="category-icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        Social Media
+                    </h3>
+
+                    <p>
+
+                        Campaign planning, content creation,
+                        platform strategy and audience growth.
+
+                    </p>
+
+                    <span class="card-link">
+                        View Projects →
+                    </span>
+
+                </a>
+
+
+
+                <!-- VIDEO EDITING -->
+
+                <a
+                    href="video-editing.html"
+                    class="category-card"
+                >
+
+                    <div class="category-number">
+                        02
+                    </div>
+
+                    <div class="category-icon">
+                        ▶
+                    </div>
+
+                    <h3>
+                        Video Editing
+                    </h3>
+
+                    <p>
+
+                        Promotional videos, walkthroughs,
+                        trailers, voice-over and visual storytelling.
+
+                    </p>
+
+                    <span class="card-link">
+                        View Projects →
+                    </span>
+
+                </a>
+
+
+
+                <!-- DIGITAL DESIGN -->
+
+                <a
+                    href="digital-design.html"
+                    class="category-card"
+                >
+
+                    <div class="category-number">
+                        03
+                    </div>
+
+                    <div class="category-icon">
+                        ✦
+                    </div>
+
+                    <h3>
+                        Digital Design
+                    </h3>
+
+                    <p>
+
+                        Marketing assets, graphics, branding
+                        and digital visual content.
+
+                    </p>
+
+                    <span class="card-link">
+                        View Projects →
+                    </span>
+
+                </a>
+
+
+
+                <!-- WEB & DIGITAL -->
+
+                <a
+                    href="web-digital.html"
+                    class="category-card"
+                >
+
+                    <div class="category-number">
+                        04
+                    </div>
+
+                    <div class="category-icon">
+                        ◇
+                    </div>
+
+                    <h3>
+                        Web & Digital
+                    </h3>
+
+                    <p>
+
+                        Website design, HTML, CSS, digital
+                        experiences and interactive projects.
+
+                    </p>
+
+                    <span class="card-link">
+                        View Projects →
+                    </span>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             FEATURED PROJECT
+        ========================================== -->
+
+        <section class="featured-section">
+
+            <div class="section-container">
+
+                <div class="featured-project">
+
+
+                    <!-- FEATURED PROJECT IMAGE -->
+
+                    <div class="featured-image">
+
+                        <img
+                            src="images/elavew.jpg"
+                            alt="Elavew website walkthrough project"
+                        >
+
+                    </div>
+
+
+
+                    <!-- FEATURED PROJECT INFORMATION -->
+
+                    <div class="featured-content">
+
+                        <p class="eyebrow-text">
+                            FEATURED PROJECT
+                        </p>
+
+                        <h2>
+                            Elavew Website Walkthrough
+                        </h2>
+
+                        <p>
+
+                            A promotional website walkthrough
+                            created to clearly demonstrate
+                            Elavew's workflow and key platform
+                            features.
+
+                        </p>
+
+                        <div class="tag-list">
+
+                            <span>
+                                Video Editing
+                            </span>
+
+                            <span>
+                                Voice-over
+                            </span>
+
+                            <span>
+                                Music
+                            </span>
+
+                            <span>
+                                Marketing
+                            </span>
+
+                        </div>
+
+                        <a
+                            href="elavew.html"
+                            class="button button-primary"
+                        >
+                            View Case Study
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             ABOUT SECTION
+        ========================================== -->
+
+        <section
+            class="about-section section-container"
+            id="about"
+        >
+
+            <div class="about-grid">
+
+
+                <!-- ABOUT IMAGE -->
+
+                <div class="about-image-wrapper">
+
+                    <div class="about-image-shape">
+
+                        <img
+                            src="images/profile.jpg"
+                            alt="Creative portfolio portrait"
+                        >
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ABOUT TEXT -->
+
+                <div class="about-content">
+
+                    <p class="eyebrow-text">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        Creative thinking with a digital focus.
+                    </h2>
+
+
+                    <p>
+
+                        I'm a digital creative with experience
+                        across social media, video editing,
+                        graphic design and website development.
+
+                    </p>
+
+
+                    <p>
+
+                        I enjoy taking an idea and developing
+                        it into something visual, engaging and
+                        easy for an audience to understand.
+
+                    </p>
+
+
+                    <p>
+
+                        My work ranges from social campaigns
+                        and promotional videos to Steam assets,
+                        website design and independent creative
+                        projects.
+
+                    </p>
+
+
+                    <!-- SKILL TAGS -->
+
+                    <div class="skill-list">
+
+                        <span>
+                            Social Media
+                        </span>
+
+                        <span>
+                            Content Creation
+                        </span>
+
+                        <span>
+                            Video Editing
+                        </span>
+
+                        <span>
+                            Photoshop
+                        </span>
+
+                        <span>
+                            DaVinci Resolve
+                        </span>
+
+                        <span>
+                            HTML
+                        </span>
+
+                        <span>
+                            CSS
+                        </span>
+
+                        <span>
+                            Digital Marketing
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================================
+             CONTACT SECTION
+        ========================================== -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="contact-box">
+
+                <p class="eyebrow-text light-eyebrow">
+                    LET'S CREATE SOMETHING
+                </p>
+
+                <h2>
+                    Have a project in mind?
+                </h2>
+
+                <p>
+
+                    I'm available for freelance creative work,
+                    collaborations and digital projects.
+
+                </p>
+
+
+                <!--
+                    CHANGE THE EMAIL ADDRESS BELOW
+                    TO YOUR OWN EMAIL ADDRESS.
+                -->
+
+                <a
+                    href="mailto:your@email.com"
+                    class="button button-white"
+                >
+                    Get In Touch
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div>
+
+                <img
+                    src="images/logo.png"
+                    alt="Butterfly Effects"
+                    class="footer-logo"
+                >
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#portfolio">
+                    Portfolio
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <p class="copyright">
+
+                © 2026 Butterfly Effects
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
